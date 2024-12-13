@@ -27,6 +27,7 @@
 
 @media (prefers-color-scheme: light) {
 
+
   :root {
     /* Дублируем переменные светлой темы */   
     --accent-color: #ff8dcb;
@@ -41,7 +42,8 @@
     --text-size: 18px;
     --text-normal: normal;
     --text-bold: bold;
-    --bg-image: url(../images/cover-image-light.png) center center/cover no-repeat; 
+    --bg-image: url(../images/cover-image-light.png) 
+    center center/cover no-repeat; 
     --header-decor-display: none;
   }
   
