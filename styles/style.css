@@ -78,7 +78,6 @@
   font-family: inherit;
   text-transform: lowercase;
   color: var(--menu-text-color);
-  font-family: inherit;
   cursor: pointer;
 }
 
@@ -198,6 +197,7 @@
 
 
 @media (width >= 768px) {
+
   .page {
     max-inline-size: 1024px;
   }
@@ -263,10 +263,6 @@
     padding-block-end: 60px;
   }
 
-  .galery__wrapper {
-    gap: 20px;
-  }
-
   .galery__subtitle {
     inline-size: 100%;
     grid-row: 1;
@@ -275,15 +271,19 @@
   .sunset { 
     grid-area: sunset; 
   }
+
   .ice-cream { 
     grid-area: ice-cream; 
   }
+
   .street { 
     grid-area: street; 
   }
+
   .type { 
     grid-area: type; 
   }
+
   .books { 
     grid-area: books; 
   }
@@ -306,6 +306,7 @@
 }
 
 @media (width >= 1024px) {
+
   .page {
     max-inline-size: 1440px;
   }
