@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme_dark {
+.page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
@@ -24,4 +24,6 @@
   --bg-image: url(../images/cover-image-dark.png) center center/cover no-repeat;
   --header-decor-display: flex;
   --decorate-color: #ff0070;
+  --button-hover-color: solid 1px rgba(255, 0, 112, 0.4);
+  --button-active-color: solid 1px #ff0070;
 }
